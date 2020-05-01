@@ -4,9 +4,10 @@
 
 1. Récupérer l'archive jar de ANTLR : http://www.antlr.org/download/antlr-4.8-complete.jar
 2. Ajoutez les commandes suivantes dans votre .bashrc: 
--- Rajoutez le .jar au CLASSPATH. Attention, pas de ~ dans le chemin :export           CLASSPATH=".:mon_chemin/antlr-4.8-complete.jar:$CLASSPATH"
--- Créez un alias pour le lancement de antlr4 : alias antlr4='java -jar mon_chemin/antlr-4.8-complete.jar'
--- Créez un alias pour le lancement de l'analyse d'un fichier par une grammaire : alias grun='java           org.antlr.v4.gui.TestRig'
+
+* Rajoutez le .jar au CLASSPATH. Attention, pas de ~ dans le chemin :export           CLASSPATH=".:mon_chemin/antlr-4.8-complete.jar:$CLASSPATH"
+* Créez un alias pour le lancement de antlr4 : alias antlr4='java -jar mon_chemin/antlr-4.8-complete.jar'
+* Créez un alias pour le lancement de l'analyse d'un fichier par une grammaire : alias grun='java           org.antlr.v4.gui.TestRig'
 
 Java doit également être installé sur votre machine
 
