@@ -1,0 +1,9 @@
+eq_circuit(in1,b,c) returns (out,o2)
+  out=(in1&b|c;
+  o2=(c&in1);
+end
+
+descr()
+eval(false,true,false)
+eval(true,true,false)
+eval(true,false,true)
