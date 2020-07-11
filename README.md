@@ -1,4 +1,4 @@
-# Programme d'analyse de circuit logique  -- par Thomas Mertz
+# Programme d'analyse de circuit logique  -- par Thorsieger
 
 ### Prérequis : ANTLR
 
